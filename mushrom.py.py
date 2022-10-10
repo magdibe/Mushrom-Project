@@ -1,6 +1,6 @@
 import csv
 import random
-# Names : Mona , Nimrod , Mohammad Joubat , Jehad , Mhinkkye ,Magdi, Rani
+
 attributes_yes_list = []
 attributes_no_list = []
 
