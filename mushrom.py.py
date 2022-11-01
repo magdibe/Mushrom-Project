@@ -22,8 +22,7 @@ class data_class:
     def prepare_datasets(self):
         self.training_data = []
         self.test_data = test_data
-        # DATASET = "C:\\Users\\Mohammad\\PycharmProjects\\daily28\\agaricus-lepiota.csv"
-        # ATTRIBUTES = 'C:\\Users\\Mohammad\\PycharmProjects\\daily28\\agaricus-lepiota.names'
+       
         with open('agaricus-lepiota.csv', 'r+') as dataset_file:
             dataset_lines = dataset_file.readlines()
 
